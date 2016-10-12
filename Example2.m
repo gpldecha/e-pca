@@ -117,6 +117,8 @@ hf2_pos = get(hf(2),'Position');
 
 close all;
 
+set(0,'defaulttextinterpreter','latex')
+
 nbSamples       = 25;
 xs              = linspace(-12,12,nbSamples);
 ys              = linspace(-12,12,nbSamples);
@@ -169,6 +171,8 @@ title(['Projected (2) Belief(' num2str(id) ')']);
 
 %% Save figure
 
-print(hf(1),['./e-pca/docs/original_pdf_' num2str(id) '.svg'],'-dsvg');
-print(hf(1),['./e-pca/docs/reconstructed_pdf_' num2str(id) '.svg'],'-dsvg');
+print(hf(1),['./e-pca/docs/original_pdf_' num2str(id) '.png'],'-dpng','-r400');
+
+%%
+print(hf(2),['./e-pca/docs/reconstructed_pdf_' num2str(id) '.png'],'-dpng','-r400');
 
