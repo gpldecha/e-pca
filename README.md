@@ -30,15 +30,24 @@ a dataset of 2D probability distribtions.
 
 ## Example 1
 
+In [Example1.m](https://github.com/gpldecha/e-pca/blob/master/Example1.m), you will first generate a set of random 
+probability distributions and find two latent spaces, one via PCA and the other via E-PCA. You will systematically 
+evaluate the effect on both the reconstruction error and KL-divergence between the re-projected compressed beliefs
+with the original data. You should get the figure below:
+
 <p align="center">
 <img src="./docs/PCA_EPCA.png" height="300" >
 </p>
+
+As we can see E-PCA outperforms PCA. You will also visually analys the reconstructed beliefs. Below you can see the result from PCA and E-PCA for the case when 5 eigenvectors where retained.
 
 <p align="center">
 <img src="./docs/PCA_proj_5.png" height="300" > <img src="./docs/EPCA_proj5.png" height="300">
 </p>
 
 ## Example 2
+
+[Example2.m](https://github.com/gpldecha/e-pca/blob/master/Example2.m) is similar to Example1, however a dataset of probability distributions is already provided for you. In this example you will be able to visually inspect the difference between the original probability distributions and their reconstruction after first compressing them. You should get a figure similar to the one below:
 
 <p align="center">
 <img src="./docs/example2.png" height="300" > 
