@@ -40,6 +40,9 @@ a dataset of 2D probability distribtions.
 
 ## Example 2
 
+<p align="center">
+<img src="./docs/original_pdf_20.png" height="300" > <img src="./docs/reconstructed_pdf_20.png" height="300">
+</p>
 
 
 
