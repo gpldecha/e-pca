@@ -7,7 +7,7 @@ in POMDPs](http://www.cs.cmu.edu/~ggordon/nickr-ggordon.nips02.pdf). The left fi
 <img src="./docs/original_belief.gif" alt="original_belief" height="300" > <img src="./docs/reconstructed_belief.gif" alt="reconstructed_belief" height="300">
 </p>
 
-In the above animation the origininal dimension of the probabilitiy distribution is 625 and the learned E-PCA latent space
+In the above animation the original dimension of the probability distribution is 625 and the learned E-PCA latent space
 has 8 dimensions. This is a very large compression, we went from 625 dimensions to 8 and as we can see the reconstructed probability distributions (right) are very similar to the original distributions (left).
 
 The optimisation to find the latent space feature space is convex and can be solved though Newton's methods. The matalab implementation follows closely the aglorithm details given in the paper [Finding Approximate POMDP Solutions Through Belief
