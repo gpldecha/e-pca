@@ -7,5 +7,14 @@ in POMDPs](http://www.cs.cmu.edu/~ggordon/nickr-ggordon.nips02.pdf). The left fi
 <img src="./docs/original_belief.gif" alt="original_belief" height="300" > <img src="./docs/reconstructed_belief.gif" alt="reconstructed_belief" height="300">
 </p>
 
-The optimisation to find the latent space requires a [Finding Approximate POMDP Solutions Through Belief
-Compression](https://arxiv.org/pdf/1107.0053.pdf)
+The optimisation to find the latent space feature space is convex and can be solved though Newton's methods. The matalab implementation follows closely the aglorithm details given in the paper [Finding Approximate POMDP Solutions Through Belief
+Compression](https://arxiv.org/pdf/1107.0053.pdf), see page 14.
+
+# Installation 
+
+After downlonading and extracting e-pca to your matlab workspace and you are in the matlab Command Window terminal 
+make sure you are loacted outside the e-pca directory and run:
+
+```matlab
+>>> addpath(genpath('./e-pca'))
+```
