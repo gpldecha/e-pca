@@ -22,7 +22,8 @@ make sure you are loacted outside the e-pca directory and run:
 # Examples
 
 Two examples are given [Example1.m](https://github.com/gpldecha/e-pca/blob/master/Example1.m), [Example2.m](https://github.com/gpldecha/e-pca/blob/master/Example2.m). The first example compares PCA vs E-PCA on a
-auto-generated dataset of multi-modal probability distributions. The second example considers 2D probability distribtions.
+auto-generated dataset of multi-modal probability distributions. The second example does the same but with 
+a dataset of 2D probability distribtions.
 
 ## Example 1
 
