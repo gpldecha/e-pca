@@ -31,6 +31,10 @@ a dataset of 2D probability distribtions.
 ## Example 1
 
 <p align="center">
+<img src="./docs/PCA_EPCA.png" height="300" >
+</p>
+
+<p align="center">
 <img src="./docs/PCA_proj_5.png" height="300" > <img src="./docs/EPCA_proj5.png" height="300">
 </p>
 
