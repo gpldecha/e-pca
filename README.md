@@ -18,3 +18,19 @@ make sure you are loacted outside the e-pca directory and run:
 ```matlab
 >>> addpath(genpath('./e-pca'))
 ```
+
+# Examples
+
+Two examples are given [Example1.m](https://github.com/gpldecha/e-pca/blob/master/Example1.m), [Example2.m](https://github.com/gpldecha/e-pca/blob/master/Example2.m). The first example compares PCA vs E-PCA on a
+auto-generated dataset of multi-modal probability distributions. The second example considers 2D probability distribtions.
+
+## Example 1
+
+
+## Example 2
+
+
+
+
+
+
